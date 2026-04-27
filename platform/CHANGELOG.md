@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.2.25](https://github.com/archestra-ai/archestra/compare/platform-v1.2.24...platform-v1.2.25) (2026-04-27)
+
+
+### Features
+
+* add personal mcp gateway ([#4136](https://github.com/archestra-ai/archestra/issues/4136)) ([9536b5e](https://github.com/archestra-ai/archestra/commit/9536b5eec5ed9a0df35f5af399d115797c2c0ea6))
+* add search-and-run tool mode ([#4041](https://github.com/archestra-ai/archestra/issues/4041)) ([b06cbb7](https://github.com/archestra-ai/archestra/commit/b06cbb74b93162db80432435a81d812d4f0b9c0f))
+* default connection page to per-user personal MCP gateway ([#4137](https://github.com/archestra-ai/archestra/issues/4137)) ([f52d3c1](https://github.com/archestra-ai/archestra/commit/f52d3c1156228cfdd07b20b0728ff58609d74708))
+* split scope and owner filters on agents, LLM proxies, MCP gateways ([#4071](https://github.com/archestra-ai/archestra/issues/4071)) ([03c02fc](https://github.com/archestra-ai/archestra/commit/03c02fc6691d6f3a69ee0edc8ae46da0731536f0))
+
+
+### Bug Fixes
+
+* chat permissions ([#4142](https://github.com/archestra-ai/archestra/issues/4142)) ([019c7dc](https://github.com/archestra-ai/archestra/commit/019c7dc8f5a5fd0d9262724b193b56e50715390e))
+* MCP server assignment N+1 queries ([#4086](https://github.com/archestra-ai/archestra/issues/4086)) ([319f7ec](https://github.com/archestra-ai/archestra/commit/319f7ec7ef67076348bcc16cc3b7f339761841a2))
+
+
+### Miscellaneous Chores
+
+* capture raw provider errors in Sentry ([#4083](https://github.com/archestra-ai/archestra/issues/4083)) ([7a8d3c8](https://github.com/archestra-ai/archestra/commit/7a8d3c812dc53e9155424a6b73030cd2f6751d11))
+* **release:** bump version ([#4143](https://github.com/archestra-ai/archestra/issues/4143)) ([c1115dd](https://github.com/archestra-ai/archestra/commit/c1115ddfe816275e83191ab9c05cd771a83ad5d4))
+
 ## [1.2.24](https://github.com/archestra-ai/archestra/compare/platform-v1.2.23...platform-v1.2.24) (2026-04-24)
 
 
